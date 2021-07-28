@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: posts_service
+  cloud:
+    config:
+      uri: http://localhost:8081
+      name: posts
+  profiles:
+    active: posts_service

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: apigateway_service
+  cloud:
+    config:
+      name: apigateway
+      uri: http://localhost:8081
+  profiles:
+    active: apigateway_service
